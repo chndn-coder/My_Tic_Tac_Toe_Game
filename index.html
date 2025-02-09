@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tic-Tac-Toe Game</title> <!-- Title of the webpage -->
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Message container that appears when the game is won or drawn -->
+    <div class="msg-container hide">  <!-- Initially hidden using "hide" class -->
+        <p id="msg">Winner</p> <!-- Message to display the result -->
+        <button id="new-game">New Game</button> <!-- Button to start a new game -->
+    </div>
+
+    <main>
+        <h1>Tic Tac Toe</h1> <!-- Game title -->
+
+        <!-- Game container to hold the Tic-Tac-Toe board -->
+        <div class="container">
+            <div class="game">
+                <!-- 9 buttons representing the Tic-Tac-Toe grid -->
+                <button class="box" data-index="0"></button>
+                <button class="box" data-index="1"></button>
+                <button class="box" data-index="2"></button>
+                <button class="box" data-index="3"></button>
+                <button class="box" data-index="4"></button>
+                <button class="box" data-index="5"></button>
+                <button class="box" data-index="6"></button>
+                <button class="box" data-index="7"></button>
+                <button class="box" data-index="8"></button>
+            </div>
+        </div>
+
+        <!-- Button to reset the game without reloading the page -->
+        <button id="reset-game">Reset Game</button>
+    </main>
+
+    <!-- Link to external JavaScript file for game logic -->
+    <script src="app.js"></script>
+</body>
+</html>
