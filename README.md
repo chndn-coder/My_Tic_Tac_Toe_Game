@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game 🎮
 
-This
+
 Here, I make a simple Tic-Tac-Toe game built using HTML, CSS, and JavaScript with interactive UI.
 
 ## How to Play
